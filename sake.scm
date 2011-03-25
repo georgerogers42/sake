@@ -1,5 +1,5 @@
-(use srfi-1)
-(use posix)
+(include srfi-1)
+(include posix)
 (module sake (task update dirty? make-task dirty-filter)
   (import-for-syntax matchable)
   (import scheme chicken srfi-1 posix)
