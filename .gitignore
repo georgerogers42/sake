@@ -1,0 +1,7 @@
+.*.sake
+# Vim
+*.swp
+*.swo
+
+*~
+
