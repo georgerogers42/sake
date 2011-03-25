@@ -46,5 +46,5 @@
 	   (delay
 	     (begin
 	       (if ,(ren 'prereqs)
-		   (for-each update ,(ren 'prereqs)))
+		   (for-each ,(ren 'update) ,(ren 'prereqs)))
 	       ,@body))))))))
