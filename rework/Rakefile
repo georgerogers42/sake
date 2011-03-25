@@ -1,0 +1,9 @@
+def latex f
+  2.times do
+    system "lualatex", f
+  end
+end
+file 'getreal.pdf' => ['getreal.tex','hello.rb','Hello.java'] do
+  latex 'getreal.tex'
+end
+task :default => 'getreal.pdf'
