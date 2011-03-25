@@ -1,0 +1,7 @@
+Sake is a build system based off chicken scheme.
+
+It has 3 goals.
+
+1. Simplicity -- Less Lines Of Code
+2. Generality -- It does not parse the command line. it is just a library
+3. Small Size -- It should not be more than 500 lines of code at most.
